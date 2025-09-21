@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علي الصيادي - مطور ويب </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-code" style="font-size: 28px; color: #fff;"></i>
+                <span class="logo-subtitle">    </span>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+                <a href="#about" class="nav-link" data-ar="عني" data-en="About">عني</a>
+                <a href="#skills" class="nav-link" data-ar="مهاراتي" data-en="Skills">مهاراتي</a>
+                <a href="#education" class="nav-link" data-ar="شهاداتي" data-en="education">شهاداتي</a>
+                <a href="#projects" class="nav-link" data-ar="أعمالي" data-en="Projects">أعمالي</a>
+                <a href="#contact" class="nav-link" data-ar="تواصل معي" data-en="Contact">تواصل معي</a>
+            </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-particles"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        
+        <div class="hero-container"><br><br>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line" data-ar="مرحباً، أنا" data-en="Hello, I'm">مرحباً، أنا</span>
+                        <span class="title-name">علي مسعد علي الصيادي</span>
+                        <span class="title-role" data-ar="مطور ويب محترف" data-en="Professional Web Developer">مطور ويب محترف</span>
+                    </h1>
+                    
+                    <p class="hero-description" data-ar="أقوم بتطوير مواقع ويب عصرية وتطبيقات تفاعلية باستخدام أحدث التقنيات والأدوات. خبرة في تطوير الواجهات الأمامية والخلفية باستخدام PHP وLaravel وC# وSQL Server." data-en="I develop modern websites and interactive applications using the latest technologies and tools. Experience in frontend and backend development using React, Laravel, C#, and SQL Server.">
+                        أقوم بتطوير مواقع ويب عصرية وتطبيقات تفاعلية باستخدام أحدث التقنيات والأدوات. خبرة في تطوير الواجهات الأمامية والخلفية باستخدام PHP وLaravel وC# وSQL Server.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span data-ar="استعرض أعمالي" data-en="View My Work">استعرض أعمالي</span>
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span data-ar="تواصل معي" data-en="Contact Me">تواصل معي</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="image-frame">
+                            <img src="hero.jpg" alt="علي الصيادي" class="profile-image">
+                        </div>
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label" data-ar="سنوات خبرة" data-en="Years Experience">سنوات خبرة</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label" data-ar="مشروع مكتمل" data-en="Projects Completed">مشروع مكتمل</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">430+</span>
+                    <span class="stat-label" data-ar="عميل راضي" data-en="Happy Clients">عميل راضي</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ar="عني" data-en="About Me">عني</h2>
+                <p class="section-subtitle" data-ar="تعرف على خلفيتي وخبراتي في مجال تطوير الويب" data-en="Learn about my background and experience in web development">تعرف على خلفيتي وخبراتي في مجال تطوير الويب</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-ar="مطور ويب محترف مع أكثر من 3 سنوات من الخبرة في تطوير المواقع والتطبيقات الحديثة. أتخصص في تطوير الواجهات الأمامية والخلفية باستخدام تقنيات متنوعة مثل PHP وLaravel وC# وSQL Server." data-en="Professional web developer with over 2 years of experience in developing modern websites and applications. I specialize in frontend and backend development using various technologies like React, Laravel, C#, and SQL Server.">
+                        مطور ويب محترف مع أكثر من 3 سنوات من الخبرة في تطوير المواقع والتطبيقات الحديثة. أتخصص في تطوير الواجهات الأمامية والخلفية باستخدام تقنيات متنوعة مثل PHP وLaravel وC# وSQL Server.
+                    </p>
+                    
+                    <p data-ar="أؤمن بأهمية التصميم الجميل والوظيفية العملية، وأسعى دائماً لتقديم حلول مبتكرة تلبي احتياجات العملاء وتحقق أهدافهم التجارية." data-en="I believe in the importance of beautiful design and practical functionality, and I always strive to provide innovative solutions that meet clients' needs and achieve their business goals.">
+                        أؤمن بأهمية التصميم الجميل والوظيفية العملية، وأسعى دائماً لتقديم حلول مبتكرة تلبي احتياجات العملاء وتحقق أهدافهم التجارية.
+                    </p>
+                </div>
+                
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 data-ar="تطوير نظيف" data-en="Clean Development">تطوير نظيف</h3>
+                        <p data-ar="كود نظيف ومنظم يسهل الصيانة والتطوير" data-en="Clean and organized code that's easy to maintain and develop">كود نظيف ومنظم يسهل الصيانة والتطوير</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 data-ar="تصميم متجاوب" data-en="Responsive Design">تصميم متجاوب</h3>
+                        <p data-ar="مواقع تعمل بشكل مثالي على جميع الأجهزة" data-en="Websites that work perfectly on all devices">مواقع تعمل بشكل مثالي على جميع الأجهزة</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 data-ar="أداء سريع" data-en="Fast Performance">أداء سريع</h3>
+                        <p data-ar="تحسين الأداء لضمان سرعة التحميل" data-en="Performance optimization to ensure fast loading">تحسين الأداء لضمان سرعة التحميل</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ar="شهاداتي وتعليمي " data-en="My Educational Level">شهاداتي وتعليمي </h2>
+                <p class="section-subtitle" data-ar="الشهادات والمؤهلات التي حصلت عليها في مجال التكنولوجيا والإدارة" data-en="Certificates and qualifications I obtained in the field of technology and management">الشهادات والمؤهلات التي حصلت عليها في مجال التكنولوجيا والإدارة</p>
+            </div>
+
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>بكالوريوس في تقنية المعلومات</h3>
+                        <p>درجة البكالوريوس في تقنية المعلومات  <span style="color: aquamarine;">جامعة صنعاء</span></p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>شهادة دولية في إدارة المشاريع من منصة أليسون</h3>
+                        <p>شهادة دولية لإدارة المشاريع من منصة <span style="color: aquamarine;"> أليسون</span></p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>دبلوم متقدم في اللغة الإنجليزية - معهد يالي</h3>
+                        <p>دبلوم متقدم في اللغة الإنجليزية من <span style="color: aquamarine;"> معهد يالي</span></p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>شهادة سيسكو في أمن المعلومات</h3>
+                        <p>شهادة سيسكو المتخصصة في <span style="color: aquamarine;"> أمن المعلومات</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ar="مهاراتي" data-en="My Skills">مهاراتي</h2>
+                <p class="section-subtitle" data-ar="التقنيات والأدوات التي أتقنها في تطوير الويب" data-en="Technologies and tools I master in web development">التقنيات والأدوات التي أتقنها في تطوير الويب</p>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 data-ar="الواجهة الأمامية" data-en="Frontend">الواجهة الأمامية</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="88"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <span class="skill-name">BootStrap</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3 data-ar="الواجهة الخلفية" data-en="Backend">الواجهة الخلفية</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <span class="skill-name">PHP</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div><div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-laravel"></i>
+                            </div>
+                            <span class="skill-name">Laravel</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skill-name"># C</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <span class="skill-name">Sql Server</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div> <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">Mysql</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ar="اعمالي المميزة" data-en="My Projects">اعمالي المميزة</h2>
+                <p class="section-subtitle" data-ar="معرض من المشاريع التي عملت عليها" data-en="Gallery of projects I've worked on">     معرض من بعض مشاريعي التي عملت عليها</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all" data-ar="الكل" data-en="All">الكل</button>
+                <button class="filter-btn" data-filter="web" data-ar="الويب" data-en="Web">الويب</button>
+                <button class="filter-btn" data-filter="csharp" data-ar="C#" data-en="C#">C#</button>
+            </div>
+
+            <!-- Projects Gallery -->
+            <div class="gallery-grid">
+                <!-- Web Projects -->
+                <div class="gallery-item" data-category="web">
+                    <img src="images/img1.jpg" alt="موقع إلكتروني">
+                    <div class="gallery-overlay">
+                        <div class="project-details">
+                            <h3></h3>
+                            <p></p>
+                            <div class="project-tech">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="gallery-links">
+                                <a href="#" class="gallery-link" title="عرض المشروع">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="web">
+                    <img src="images/img10.jpg" alt="موقع تفاعلي">
+                    <div class="gallery-overlay">
+                        <div class="project-details">
+                            <h3></h3>
+                            <p></p>
+                            <div class="project-tech">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="gallery-links">
+                                <a href="#" class="gallery-link" title="عرض المشروع">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="web">
+                    <img src="images/img2.jpg" alt="نظام إدارة المستشفى">
+                    <div class="gallery-overlay">
+                        <div class="project-details">
+                            <h3></h3>
+                            <p></p>
+                            <div class="project-tech">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="gallery-links">
+                                <a href="#" class="gallery-link" title="عرض المشروع">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="web">
+                    <img src="images/img3.jpg" alt=" ويب ">
+                    <div class="gallery-overlay">
+                         <div class="project-details">
+                            <h3></h3>
+                            <p></p>
+                            <div class="project-tech">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="gallery-links">
+                                <a href="#" class="gallery-link" title="عرض المشروع">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- C# Projects -->
+                <div class="gallery-item" data-category="csharp">
+                    <img src="images/c1.PNG" alt="نظام إدارة المخزون">
+                    <div class="gallery-overlay">
+                        <div class="project-details">
+                            <h3></h3>
+                            <p></p>
+                            <div class="project-tech">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="gallery-links">
+                                <a href="#" class="gallery-link" title="عرض المشروع">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="csharp">
+                    <img src="images/ca2.PNG" alt="  ">
+                    <div class="gallery-overlay">
+                        <div class="project-details">
+                            <h3></h3>
+                            <p></p>
+                            <div class="project-tech">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="gallery-links">
+                                <a href="#" class="gallery-link" title="عرض المشروع">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="csharp">
+                    <img src="images/cg1.PNG" alt="  ">
+                    <div class="gallery-overlay">
+                        <div class="project-details">
+                            <h3></h3>
+                            <p></p>
+                            <div class="project-tech">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="gallery-links">
+                                <a href="#" class="gallery-link" title="عرض المشروع">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="csharp">
+                    <img src="images/ccal1.PNG" alt="  ">
+                    <div class="gallery-overlay">
+                        <div class="project-details">
+                            <h3></h3>
+                            <p></p>
+                            <div class="project-tech">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="gallery-links">
+                                <a href="#" class="gallery-link" title="عرض المشروع">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Message Section -->
+    <section id="my-message" class="my-message">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ar="رسالتي" data-en="My Message">رسالتي</h2>
+            </div>
+            
+            <div class="message-content">
+                <p data-ar="في رحلة الحياة، كل تحدي هو فرصة للنمو، وكل سقوط هو بداية لنهوض أقوى. آمن بقدراتك، واجعل شغفك وقودك، فالعالم ينتظر بصمت إبداعك. لا تتوقف عن التعلم، ولا تتراجع عن أحلامك، فالمستقبل يصنعه أولئك الذين يجرؤون على الحلم والعمل." data-en="In life's journey, every challenge is an opportunity for growth, and every fall is the beginning of a stronger rise. Believe in your abilities, let your passion be your fuel, for the world silently awaits your creativity. Never stop learning, and never give up on your dreams, for the future is made by those who dare to dream and act.">
+                    في رحلة الحياة، كل تحدي هو فرصة للنمو، وكل سقوط هو بداية لنهوض أقوى. آمن بقدراتك، واجعل شغفك وقودك، فالعالم ينتظر بصمت إبداعك. لا تتوقف عن التعلم، ولا تتراجع عن أحلامك، فالمستقبل يصنعه أولئك الذين يجرؤون على الحلم والعمل.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ar="تواصل معي" data-en="Contact Me">تواصل معي</h2>
+                <p class="section-subtitle" data-ar="هل لديك مشروع في ذهنك؟ دعنا نتحدث!" data-en="Have a project in mind? Let's talk!">هل لديك مشروع في ذهنك؟ دعنا نتحدث!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3 data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</h3>
+                        <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=alialsyadyalsyady@gmail.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">alialsyadyalsyady@gmail.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3 data-ar="الهاتف" data-en="Phone">الهاتف</h3>
+                        <p style="direction: ltr;"><a href="tel:+967775292792" style="color: inherit; text-decoration: none;">+967775292792</a></p>
+                    </div>
+                </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-ar="الموقع" data-en="Location">الموقع</h3>
+                            <p data-ar="Sana'a, YEMEN" data-en="Sana'a, YEMEN">Sana'a, YEMEN</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telegram</h3>
+                            <p style="direction: ltr;">
+                                <a href="https://t.me/+9677700352901" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">+967700352901</a>
+                            </p>
+                            <p>
+                                <a href="https://t.me/devfst" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">قناتي على التليجرام</a>
+                            </p>
+                            <p>
+                               <a href="https://t.me/devfst" target="_blank" rel="noopener noreferrer" style="color: rgb(231, 139, 236); text-decoration: none;">  https://t.me/devfst</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name" data-ar="الاسم" data-en="Name">الاسم</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email" data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject" data-ar="الموضوع" data-en="Subject">الموضوع</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message" data-ar="الرسالة" data-en="Message">الرسالة</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <span data-ar="إرسال الرسالة" data-en="Send Message">إرسال الرسالة</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p data-ar="© 2025 علي الصيادي. جميع الحقوق محفوظة." data-en="© 2025 Ali Alssiady. All rights reserved.">© 2025 علي الصيادي. جميع الحقوق محفوظة.</p>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://wa.me/+967775292792" class="social-link">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://t.me/+967700352901" class="social-link">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" title="العودة لأعلى">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal" style="display:none;">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <img id="modalImage" class="modal-image" src="" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
